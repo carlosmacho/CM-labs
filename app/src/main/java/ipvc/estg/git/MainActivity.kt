@@ -17,5 +17,7 @@ class MainActivity : AppCompatActivity() {
         // Carlos added method D
 
         // tests on requirement 10
+
+        // tests on requirement 10 v1
     }
 }
