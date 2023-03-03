@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">git</string>
+    <string name="key_button_name">Press me</string>
 </resources>
