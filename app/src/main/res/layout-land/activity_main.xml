@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,31 +21,39 @@
         android:text="Button 2"
         />
 
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_marginLeft="5dp"
+        android:text="Button 3"/>
+
     <LinearLayout
         android:layout_below="@+id/b2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <EditText
+        <Button
             android:id="@+id/et1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Value"
+            android:text="Button 4"
             />
 
-        <EditText
+        <Button
             android:id="@+id/et2"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Value"
+            android:text="Button 5"
             android:layout_width="0dp"/>
 
-        <EditText
+        <Button
             android:id="@+id/et3"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Value"
+            android:text="Button 6"
             android:layout_width="0dp"/>
         />
     </LinearLayout>
@@ -55,8 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:onClick="onClick"
-        android:text="Calculate"
+        android:text="Button 7"
         />
 
     <LinearLayout
@@ -89,7 +96,7 @@
         android:layout_above="@+id/b12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
         android:text="Button 10"
         />
 
